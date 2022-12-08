@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --c-green-1: #26a37c;
+  --c-white-1: #fff;
+  --c-white-2: #efeef8;
+  --c-white-3: #f6f6f6;
+
+  --c-purple-1: #23104e;
+  --c-purple-2: #302ca2;
+  --c-purple-3: #5A4C7A;
+}
+
+.bg-green-1 {
+  background-color: var(--c-green-1);
+}
+
+.c-white-1 {
+  color: var(--c-white-1);
+}
+
+.bg-white-1 {
+  background-color: var(--c-white-1);
+}
+
+.bg-white-2 {
+  color: var(--c-white-2);
+}
+
+.bg-white-3 {
+  background-color: var(--c-white-3);
+}
+
+.bg-purple-1 {
+  background-color: var(--c-purple-1);
+}
+
+.bg-purple-2 {
+  background-color: var(--c-purple-2);
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.border-radius-10 {
+  border-radius: 10px;
+}
+
+.border-radius-15 {
+  border-radius: 15px;
+}
+
+.border-none {
+  border: none;
+}
+
+.previous-price {
+  text-decoration: line-through;
+  color: #00000029;
+}
